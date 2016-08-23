@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1356EDBF3ED99293DE470309 /* Pods_devslopes_socials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2D1A3448B69C918FB02D1E /* Pods_devslopes_socials.framework */; };
 		6A169C931D6CE77F00138514 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A169C921D6CE77F00138514 /* AppDelegate.swift */; };
-		6A169C951D6CE77F00138514 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A169C941D6CE77F00138514 /* ViewController.swift */; };
+		6A169C951D6CE77F00138514 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A169C941D6CE77F00138514 /* SignInVC.swift */; };
 		6A169C981D6CE77F00138514 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A169C961D6CE77F00138514 /* Main.storyboard */; };
 		6A169C9A1D6CE77F00138514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A169C991D6CE77F00138514 /* Assets.xcassets */; };
 		6A169C9D1D6CE77F00138514 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A169C9B1D6CE77F00138514 /* LaunchScreen.storyboard */; };
+		6A169CA51D6CE7E800138514 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A169CA41D6CE7E800138514 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C2D4DDCC5FCF79F7646B30A /* Pods-devslopes-socials.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-socials.release.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-socials/Pods-devslopes-socials.release.xcconfig"; sourceTree = "<group>"; };
 		6A169C8F1D6CE77F00138514 /* devslopes-socials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "devslopes-socials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A169C921D6CE77F00138514 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6A169C941D6CE77F00138514 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A169C941D6CE77F00138514 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		6A169C971D6CE77F00138514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A169C991D6CE77F00138514 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A169C9C1D6CE77F00138514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A169C9E1D6CE77F00138514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A169CA41D6CE7E800138514 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6B2D1A3448B69C918FB02D1E /* Pods_devslopes_socials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_socials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D96533CD7F29EC03DE9C34 /* Pods-devslopes-socials.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-socials.debug.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-socials/Pods-devslopes-socials.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1356EDBF3ED99293DE470309 /* Pods_devslopes_socials.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		481E4724110AB1D6D8258413 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B2D1A3448B69C918FB02D1E /* Pods_devslopes_socials.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6A169C861D6CE77F00138514 = {
 			isa = PBXGroup;
 			children = (
 				6A169C911D6CE77F00138514 /* devslopes-socials */,
 				6A169C901D6CE77F00138514 /* Products */,
+				AE50F33156DBFE0BDC164CEE /* Pods */,
+				481E4724110AB1D6D8258413 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,48 @@
 		6A169C911D6CE77F00138514 /* devslopes-socials */ = {
 			isa = PBXGroup;
 			children = (
+				6A169CA81D6CF96100138514 /* Controller */,
+				6A169CA71D6CF95C00138514 /* View */,
+				6A169CA61D6CF95500138514 /* Model */,
 				6A169C921D6CE77F00138514 /* AppDelegate.swift */,
-				6A169C941D6CE77F00138514 /* ViewController.swift */,
 				6A169C961D6CE77F00138514 /* Main.storyboard */,
 				6A169C991D6CE77F00138514 /* Assets.xcassets */,
 				6A169C9B1D6CE77F00138514 /* LaunchScreen.storyboard */,
 				6A169C9E1D6CE77F00138514 /* Info.plist */,
+				6A169CA41D6CE7E800138514 /* GoogleService-Info.plist */,
 			);
 			path = "devslopes-socials";
+			sourceTree = "<group>";
+		};
+		6A169CA61D6CF95500138514 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6A169CA71D6CF95C00138514 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6A169CA81D6CF96100138514 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A169C941D6CE77F00138514 /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AE50F33156DBFE0BDC164CEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4D96533CD7F29EC03DE9C34 /* Pods-devslopes-socials.debug.xcconfig */,
+				3C2D4DDCC5FCF79F7646B30A /* Pods-devslopes-socials.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A169CA11D6CE77F00138514 /* Build configuration list for PBXNativeTarget "devslopes-socials" */;
 			buildPhases = (
+				5AA0C782EC0E8197FBF96100 /* [CP] Check Pods Manifest.lock */,
 				6A169C8B1D6CE77F00138514 /* Sources */,
 				6A169C8C1D6CE77F00138514 /* Frameworks */,
 				6A169C8D1D6CE77F00138514 /* Resources */,
+				78D47D72B4D29A1F47CE3AA9 /* [CP] Embed Pods Frameworks */,
+				D1783C3BE7CEC4CD25CC71C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A169CA51D6CE7E800138514 /* GoogleService-Info.plist in Resources */,
 				6A169C9D1D6CE77F00138514 /* LaunchScreen.storyboard in Resources */,
 				6A169C9A1D6CE77F00138514 /* Assets.xcassets in Resources */,
 				6A169C981D6CE77F00138514 /* Main.storyboard in Resources */,
@@ -132,12 +187,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5AA0C782EC0E8197FBF96100 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78D47D72B4D29A1F47CE3AA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-devslopes-socials/Pods-devslopes-socials-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1783C3BE7CEC4CD25CC71C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-devslopes-socials/Pods-devslopes-socials-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A169C8B1D6CE77F00138514 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A169C951D6CE77F00138514 /* ViewController.swift in Sources */,
+				6A169C951D6CE77F00138514 /* SignInVC.swift in Sources */,
 				6A169C931D6CE77F00138514 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +362,7 @@
 		};
 		6A169CA21D6CE77F00138514 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D96533CD7F29EC03DE9C34 /* Pods-devslopes-socials.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A655YFL826;
@@ -272,6 +376,7 @@
 		};
 		6A169CA31D6CE77F00138514 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C2D4DDCC5FCF79F7646B30A /* Pods-devslopes-socials.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A655YFL826;
@@ -302,6 +407,7 @@
 				6A169CA31D6CE77F00138514 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
