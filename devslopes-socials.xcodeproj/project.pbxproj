@@ -75,9 +75,7 @@
 				6A169CA71D6CF95C00138514 /* View */,
 				6A169CA61D6CF95500138514 /* Model */,
 				6A169C921D6CE77F00138514 /* AppDelegate.swift */,
-				6A169C961D6CE77F00138514 /* Main.storyboard */,
 				6A169C991D6CE77F00138514 /* Assets.xcassets */,
-				6A169C9B1D6CE77F00138514 /* LaunchScreen.storyboard */,
 				6A169C9E1D6CE77F00138514 /* Info.plist */,
 				6A169CA41D6CE7E800138514 /* GoogleService-Info.plist */,
 			);
@@ -94,6 +92,8 @@
 		6A169CA71D6CF95C00138514 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6A169C9B1D6CE77F00138514 /* LaunchScreen.storyboard */,
+				6A169C961D6CE77F00138514 /* Main.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
