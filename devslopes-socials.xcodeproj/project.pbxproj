@@ -36,6 +36,7 @@
 		6A169CAE1D6D69BB00138514 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		6A169CB01D6D6B5700138514 /* Fancyfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fancyfield.swift; sourceTree = "<group>"; };
 		6A169CB21D6D6CF000138514 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		6A169CB51D6D8CA200138514 /* devslopes-socials.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "devslopes-socials.entitlements"; sourceTree = "<group>"; };
 		6B2D1A3448B69C918FB02D1E /* Pods_devslopes_socials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_socials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D96533CD7F29EC03DE9C34 /* Pods-devslopes-socials.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-socials.debug.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-socials/Pods-devslopes-socials.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +82,7 @@
 		6A169C911D6CE77F00138514 /* devslopes-socials */ = {
 			isa = PBXGroup;
 			children = (
+				6A169CB51D6D8CA200138514 /* devslopes-socials.entitlements */,
 				6A169CAB1D6D67AF00138514 /* Util */,
 				6A169CA81D6CF96100138514 /* Controller */,
 				6A169CA71D6CF95C00138514 /* View */,
@@ -175,6 +177,14 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = A655YFL826;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -381,7 +391,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "NSAutoreleaseFreedObjectCheckEnabled NSDebugEnabled NSZombieEnabled";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -393,6 +405,7 @@
 			baseConfigurationReference = F4D96533CD7F29EC03DE9C34 /* Pods-devslopes-socials.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "devslopes-socials/devslopes-socials.entitlements";
 				DEVELOPMENT_TEAM = A655YFL826;
 				INFOPLIST_FILE = "devslopes-socials/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -407,6 +420,7 @@
 			baseConfigurationReference = 3C2D4DDCC5FCF79F7646B30A /* Pods-devslopes-socials.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "devslopes-socials/devslopes-socials.entitlements";
 				DEVELOPMENT_TEAM = A655YFL826;
 				INFOPLIST_FILE = "devslopes-socials/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

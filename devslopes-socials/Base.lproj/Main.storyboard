@@ -70,6 +70,9 @@
                                     <constraint firstAttribute="height" constant="161" id="eCM-kt-VXv"/>
                                 </constraints>
                                 <state key="normal" image="f"/>
+                                <connections>
+                                    <action selector="FacebookLoginBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yo6-n7-rcb"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yGU-Vj-0wD" customClass="Fancyfield" customModule="devslopes_socials" customModuleProvider="target">
                                 <constraints>

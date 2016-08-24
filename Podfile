@@ -6,6 +6,7 @@ target 'devslopes-socials' do
 	pod ‘Firebase/Database’
 	pod ‘Firebase/Auth’
 	pod ‘Firebase/Storage’
+    pod 'FBSDKLoginKit'
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
